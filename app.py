@@ -2,7 +2,7 @@
 
 # ## Is it a cat?
 
-# In[ ]:
+# In[1]:
 
 import gradio as gr
 #|export
@@ -54,3 +54,9 @@ label = gr.Label()
 examples = ["dog.jpg", "forest.jpg", "cat.jpg"]
 demo = gr.Interface(fn=classify_image, inputs=image, outputs=label, examples=examples)
 demo.launch()
+
+# In[ ]:
+
+import notebook2script
+
+notebook2script.convert_notebook("predict.ipynb", "app.py")
