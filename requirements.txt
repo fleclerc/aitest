@@ -1,7 +1,1 @@
-duckduckgo_search
 fastai
-gradio
-graphviz
-nbdev
-statsmodels
-transformers 
