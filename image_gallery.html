@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            margin: 20px;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .row {
+            margin-bottom: 30px;
+        }
+        .row-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .image-container {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <h2 class="row-title">Annoyed Faces</h2>
+        <div class="image-grid">
+            <div class="image-container">
+                <img src="faces/annoyed/0b0bbd0a-b2d7-4953-a0bf-fc9e800bd56d.jpg" alt="Annoyed Face 1">
+            </div>
+            <div class="image-container">
+                <img src="faces/annoyed/0bb9d8f8-0d38-4eb4-872b-8ff8fd204cb6.jpg" alt="Annoyed Face 2">
+            </div>
+            <div class="image-container">
+                <img src="faces/annoyed/00f97114-7cf2-49b6-8f50-78297516f8b5.jpg" alt="Annoyed Face 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2 class="row-title">Happy Faces</h2>
+        <div class="image-grid">
+            <div class="image-container">
+                <img src="faces/happy/0b947be5-8207-474b-8f5b-9aaf2c43d9a7.jpg" alt="Happy Face 1">
+            </div>
+            <div class="image-container">
+                <img src="faces/happy/0be1341c-2ea2-4ca8-90bf-9bc5b2fc0a11.jpg" alt="Happy Face 2">
+            </div>
+            <div class="image-container">
+                <img src="faces/happy/00d252bf-6b91-49b9-96e2-d6124db71f1d.jpg" alt="Happy Face 3">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2 class="row-title">Images</h2>
+        <div class="image-grid">
+            <div class="image-container">
+                <img src="images/photo-1624395213232-ea2bcd36b865.avif" alt="Image 1">
+            </div>
+            <div class="image-container">
+                <img src="images/test.jpg" alt="Image 2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+    "configurations": [
+        {
+            "jupyter.debugJustMyCode": false        
+        }
+    ]
+}

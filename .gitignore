@@ -1,0 +1,7 @@
+faces/*
+*.jpg
+*.png
+facial/*
+mnist/*
+images/*
+titanic/*
